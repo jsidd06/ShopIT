@@ -1,0 +1,6 @@
+POST http://localhost:4000/api/v1/create_order
+Content-Type: application/json
+
+{
+    "price" : 500
+}

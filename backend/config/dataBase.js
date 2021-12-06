@@ -6,7 +6,7 @@ const connectDatabase = () => {
         useUnifiedTopology: true,
     }).then((e) =>{
         console.log(`mongodb data base is ready for hosting baby: ${e.connection.host}`)
-    })
+    }).catch((e) =>{    console.log(e)})
 }
 
 module.exports =connectDatabase;

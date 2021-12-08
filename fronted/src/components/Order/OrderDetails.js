@@ -54,7 +54,6 @@ const OrderDetails = () => {
         <Loader />
       ) : (
         <Fragment>
-          {console.log(order)}
           <div className="row d-flex justify-content-between">
             <div className="col-12 col-lg-8 mt-5 order-details">
               <h1 className="my-5">Order # {order._id}</h1>
